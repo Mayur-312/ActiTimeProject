@@ -10,8 +10,7 @@ import com.Actitime.GenericLibrary.FileLibrary;
 import com.Actitime.pom.HomePage;
 import com.Actitime.pom.TaskPage;
 
-public class TaskTest extends BaseClass{
-	
+public class CreateCustomer extends BaseClass {
 	@Test
 	public void CreateCustomer() throws EncryptedDocumentException, IOException {
 		HomePage hp=new HomePage(driver);
